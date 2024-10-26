@@ -6,6 +6,9 @@
  ******************************************************************************************* */
 
 
+'use strickt';
+/*jshint esversion: 9 */
+
 /**
  * Returns the result of concatenation of two strings.
  *
@@ -65,8 +68,8 @@ function getStringFromTemplate(firstName, lastName) {
  *   'Hello, John Doe!' => 'John Doe'
  *   'Hello, Chuck Norris!' => 'Chuck Norris'
  */
-function extractNameFromTemplate(/* value */) {
-  throw new Error('Not implemented');
+function extractNameFromTemplate(value) {
+  return value.slice(8, -1);
 }
 
 
