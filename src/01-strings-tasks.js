@@ -5,7 +5,6 @@
  *                                                                                           *
  ******************************************************************************************* */
 
-/* jshint esversion: 9 */
 /**
  * Returns the result of concatenation of two strings.
  *
@@ -111,11 +110,7 @@ function removeLeadingAndTrailingWhitespaces(value) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(value, count) {
-  let result;
-  for (let i = 0; i < count; i + 1) {
-    result += value;
-  }
-  return result;
+  throw new Error('Not implemented');
 }
 
 /**
@@ -160,8 +155,8 @@ function unbracketTag(/* str */) {
  *   'Thunderstruck' => 'THUNDERSTRUCK'
  *  'abcdefghijklmnopqrstuvwxyz' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
  */
-function convertToUpperCase(/* str */) {
-  throw new Error('Not implemented');
+function convertToUpperCase(str) {
+  return str.toUpperCase();
 }
 
 /**
