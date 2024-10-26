@@ -5,6 +5,7 @@
  *                                                                                           *
  ******************************************************************************************* */
 
+/* jshint esversion: 9 */
 /**
  * Returns the result of concatenation of two strings.
  *
@@ -110,11 +111,7 @@ function removeLeadingAndTrailingWhitespaces(value) {
  *   'cat', 3 => 'catcatcat'
  */
 function repeatString(value, count) {
-  // let result;
-  // for(let i = 0; i < count; i++) {
-  //   result += value;
-  // }
-  // return result;
+
 }
 
 /**
