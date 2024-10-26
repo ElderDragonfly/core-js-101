@@ -6,9 +6,6 @@
  ******************************************************************************************* */
 
 
-'use strickt';
-/*jshint esversion: 9 */
-
 /**
  * Returns the result of concatenation of two strings.
  *
